@@ -1,0 +1,13 @@
+[package]
+
+name = "Wasm Rust Dom"
+version = "0.1.0"
+license = "MIT"
+description = "Wasm (webassembly) in Rust lang with DOM access"
+authors = ["Anton Okolelov"]
+
+[[bin]]
+name = "wasmtest"
+
+[dependencies]
+webplatform = "0.4.0"
